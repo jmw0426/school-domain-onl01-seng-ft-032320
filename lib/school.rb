@@ -20,7 +20,7 @@ class School
     roster[grade]
   end
   def sort
-   roster.sort
+   roster.values.sort.to_h
   end  
 end
 # school = School.new("Bayside High School")
