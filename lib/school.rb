@@ -21,7 +21,10 @@ class School
   end
   def sort
   # roster.sort_by { |key, value|  value}.to_h
-   roster.sort { |key, value| value["a"]<=>value["z"] }
+   roster.keys.sort_by { |key| roster[key] }.each do
+|key|
+    puts roster[key]
+end
     
    
   end  
