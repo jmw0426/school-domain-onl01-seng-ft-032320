@@ -21,7 +21,7 @@ class School
   end
   def sort
   # roster.each do |key, value| value.sort_by
-  roster.map.sort {|x| x.values_at}
+  roster.map {|x| x.values_at}
   
 # end
 end
