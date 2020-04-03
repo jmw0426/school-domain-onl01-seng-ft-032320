@@ -20,8 +20,8 @@ class School
     roster[grade]
   end
   def sort
-  roster.each do |key, value| value.sort_by
-  
+  # roster.each do |key, value| value.sort_by
+  roster.map {|x| x.values}
  end
 end
     
