@@ -20,7 +20,7 @@ class School
     roster[grade]
   end
   def sort
-   roster.values.sort
+   roster.sort_by { |key, value|  value }
   end  
 end
 # school = School.new("Bayside High School")
