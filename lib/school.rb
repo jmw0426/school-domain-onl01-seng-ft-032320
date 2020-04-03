@@ -22,7 +22,7 @@ class School
   def sort
   # roster.each do |key, value| value.sort_by
   roster.map {|x| x.values}
- end
+# end
 end
     
    
